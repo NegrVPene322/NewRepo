@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Практическая_3</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mvc2Futures" Version="2.0.50217" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LibMas">
+      <HintPath>..\..\LibMas\LibMas\bin\Debug\net8.0-windows\LibMas.dll</HintPath>
+    </Reference>
+    <Reference Include="Lib_9">
+      <HintPath>..\..\Lib_9\Lib_9\bin\Debug\net8.0-windows\Lib_9.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
